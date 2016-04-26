@@ -34,3 +34,4 @@ def runDoxygen():
 	subprocess.call("doxygen" , shell=True)
 	os.chdir(baseDirectory)
 	print("Changing directory to: " + baseDirectory)
+

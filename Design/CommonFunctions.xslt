@@ -19,12 +19,15 @@
 <!-- Authors:                                                                      -->
 <!--   Piotr Nikiel <piotr@nikiel.info>                                            -->
 
-<xsl:transform  xmlns:xml="http://www.w3.org/XML/1998/namespace" 
-xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-xmlns:fnc="http://cern.ch/quasar/MyFunctions"
-xmlns:d="http://cern.ch/quasar/Design"
-xsi:schemaLocation="http://www.w3.org/1999/XSL/Transform schema-for-xslt20.xsd ">
+<xsl:transform  
+ xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+ xmlns:fnc="http://cern.ch/quasar/MyFunctions"
+ xmlns:d="http://cern.ch/quasar/Design"
+ version="1.0"
+ xsi:schemaLocation="http://www.w3.org/1999/XSL/Transform schema-for-xslt20.xsd ">
 
 <!-- Returns C++ class name of AddressSpace class with given Design name -->
 <xsl:function name="fnc:ASClassName">
